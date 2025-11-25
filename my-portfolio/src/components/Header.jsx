@@ -9,19 +9,21 @@ function Header() {
   };
 
   return (
-    <header id="header" className={`header d-flex flex-column justify-content-center ${menuOpen ? 'header-show' : ''}`}>
-      <i className={`header-toggle d-xl-none bi ${menuOpen ? 'bi-x' : 'bi-list'}`} onClick={toggleMenu}></i>
-
-      <nav id="navmenu" className="navmenu">
-        <ul>
-          <li><a href="#hero" ><i className="bi bi-house navicon"></i><span>Home</span></a></li>
-          <li><a href="#about"><i className="bi bi-person navicon"></i><span>About</span></a></li>
-          <li><a href="#resume"><i className="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-          <li><a href="#portfolio"><i className="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-          <li><a href="#contact"><i className="bi bi-envelope navicon"></i><span>Contact</span></a></li>
-        </ul>
-      </nav>
-    </header>
+    <>
+      <i className={`header-toggle bi ${menuOpen ? 'bi-x' : 'bi-list'}`} onClick={toggleMenu}></i>
+      
+      <header id="header" className={`header ${menuOpen ? 'header-show' : ''}`}>
+        <nav id="navmenu" className="navmenu">
+          <ul>
+            <li><a href="#hero" onClick={toggleMenu}><i className="bi bi-house navicon"></i><span>Home</span></a></li>
+            <li><a href="#about" onClick={toggleMenu}><i className="bi bi-person navicon"></i><span>About</span></a></li>
+            <li><a href="#resume" onClick={toggleMenu}><i className="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+            <li><a href="#portfolio" onClick={toggleMenu}><i className="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+            <li><a href="#contact" onClick={toggleMenu}><i className="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+          </ul>
+        </nav>
+      </header>
+    </>
   );
 }
 
