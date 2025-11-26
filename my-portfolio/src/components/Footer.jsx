@@ -3,7 +3,7 @@ import '../styles/Footer.css';
 
 function Footer() {
   return (
-    <footer id="footer" className="footer position-relative light-background">
+    <footer id="footer" className="footer position-relative">
       <div className="container">
         <h3 className="sitename">Kaveesha Shaminda</h3>
         <p>Software Engineer</p>
@@ -17,7 +17,7 @@ function Footer() {
         </div>
         <div className="container">
           <div className="copyright">
-            <span>Copyright</span> <b>Kaveesha Shaminda</b> <span>All Rights Reserved</span>
+            © 2025 Kaveesha Shaminda | BSc (Hons) Computing & Information Systems | Sabaragamuwa University of Sri Lanka
           </div>
         </div>
       </div>

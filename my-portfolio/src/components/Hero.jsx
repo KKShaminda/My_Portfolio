@@ -33,14 +33,13 @@ function Hero() {
                   applications and solving complex problems.
                 </p>
                 <div className="hero-buttons">
-                  <a href="#portfolio" className="btn btn-primary">View Projects</a>
+                  <a href="#projects" className="btn btn-primary">View Projects</a>
                   <a href="#contact" className="btn btn-secondary">Contact Me</a>
                   <a href="/assets/cv/Kaveesha_shaminda_CV.pdf" className="btn btn-outline" download="Kaveesha_Shaminda_CV.pdf" type="application/pdf">Download CV</a>
                 </div>
                 <div className="social-links">
                   <a href="https://github.com/KKShaminda" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i></a>
                   <a href="https://www.linkedin.com/in/kaveesha-shaminda" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
-                  <a href="https://www.linkedin.com/in/kaveesha-shaminda" target="_blank" rel="noopener noreferrer"><i className="bi bi-threads"></i></a>
                 </div>
               </div>
               <div className="hero-image">

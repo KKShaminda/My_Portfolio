@@ -110,13 +110,13 @@
 
 .navmenu .active,
 .navmenu .active:focus {
-  background: #d4d8dd;
-  color: #495057;
-  box-shadow: 0 2px 8px rgba(112, 101, 101, 0.12);
+  background: #18d26e;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(24, 210, 110, 0.4);
 }
 
 .navmenu .active .navicon {
-  color: #495057;
+  color: #ffffff;
 }
 
 @media (max-width: 1199px) {
