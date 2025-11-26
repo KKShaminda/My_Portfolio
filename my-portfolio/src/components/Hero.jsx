@@ -26,9 +26,21 @@ function Hero() {
               <div className="hero-text">
                 <h2>Kaveesha Shaminda</h2>
                 <p>I'm a <span className="typed"></span></p>
+                <p className="py-3">
+                  Currently pursuing my degree in CIS at Sabaragamuwa University of Sri Lanka. 
+                  I have hands-on experience in full-stack development using modern frameworks like Angular, React, 
+                  and backend technologies including .Net and Node.js. I'm passionate about building scalable 
+                  applications and solving complex problems.
+                </p>
+                <div className="hero-buttons">
+                  <a href="#portfolio" className="btn btn-primary">View Projects</a>
+                  <a href="#contact" className="btn btn-secondary">Contact Me</a>
+                  <a href="/assets/cv/Kaveesha_shaminda_CV.pdf" className="btn btn-outline" download="Kaveesha_Shaminda_CV.pdf" type="application/pdf">Download CV</a>
+                </div>
                 <div className="social-links">
                   <a href="https://github.com/KKShaminda" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i></a>
                   <a href="https://www.linkedin.com/in/kaveesha-shaminda" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/kaveesha-shaminda" target="_blank" rel="noopener noreferrer"><i className="bi bi-threads"></i></a>
                 </div>
               </div>
               <div className="hero-image">

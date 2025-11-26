@@ -27,14 +27,77 @@
   animation: fadeInUp 1.2s ease-out;
 }
 
+.hero p.py-3 {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
 .hero p span {
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
   color: var(--accent-color);
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.hero-buttons .btn {
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.hero-buttons .btn-primary {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border: 2px solid var(--accent-color);
+}
+
+.hero-buttons .btn-primary:hover {
+  background-color: #15b95e;
+  border-color: #15b95e;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(24, 210, 110, 0.3);
+}
+
+.hero-buttons .btn-secondary {
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.hero-buttons .btn-secondary:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(24, 210, 110, 0.3);
+}
+
+.hero-buttons .btn-outline {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.hero-buttons .btn-outline:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
 .hero .social-links {
-  margin-top: 40px;
+  margin-top: 30px;
   animation: fadeInUp 1.4s ease-out;
   display: flex;
   flex-wrap: nowrap;
@@ -86,6 +149,7 @@
   gap: 120px;
   width: 100%;
   max-width: 1400px;
+  margin: 0 auto;
 }
 
 .hero-text {
@@ -148,6 +212,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
   }
 
   .hero .social-links {
