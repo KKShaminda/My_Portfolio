@@ -1,0 +1,134 @@
+.contact {
+  --accent-color: #18d26e;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.contact .section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contact .section-title p {
+  color: #cccccc;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-card {
+  background: linear-gradient(135deg, rgba(24, 24, 24, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
+  border-radius: 15px;
+  padding: 30px 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.contact-card {
+  cursor: pointer;
+}
+
+a.contact-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
+  box-shadow: 0 8px 25px rgba(24, 210, 110, 0.2);
+}
+
+div.contact-card {
+  cursor: default;
+}
+
+div.contact-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
+  box-shadow: 0 8px 25px rgba(24, 210, 110, 0.2);
+}
+
+.contact-icon {
+  flex-shrink: 0;
+}
+
+.contact-icon i {
+  font-size: 48px;
+  transition: transform 0.3s ease;
+}
+
+a.contact-card:hover .contact-icon i,
+div.contact-card:hover .contact-icon i {
+  transform: scale(1.1);
+}
+
+.contact-content {
+  flex: 1;
+}
+
+.contact-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+}
+
+.contact-content p {
+  font-size: 18px;
+  color: #cccccc;
+  margin: 0;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 25px 30px;
+    gap: 20px;
+  }
+  
+  .contact-icon i {
+    font-size: 40px;
+  }
+  
+  .contact-content h3 {
+    font-size: 20px;
+  }
+  
+  .contact-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-icon i {
+    font-size: 36px;
+  }
+  
+  .contact-content h3 {
+    font-size: 18px;
+  }
+  
+  .contact-content p {
+    font-size: 14px;
+  }
+}

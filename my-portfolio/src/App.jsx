@@ -6,6 +6,7 @@ import About from './components/About.jsx'
 import './App.css'
 import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
+import Contact from './components/Contact.jsx'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <About /> 
         <Skills />
         <Projects />
+        <Contact />
         <Footer/>
       </div>
       
