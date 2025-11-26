@@ -1,0 +1,113 @@
+.skills {
+  --accent-color: #18d26e;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.skills .section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.skills .section-title p {
+  color: #cccccc;
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.skill-card {
+  background: linear-gradient(135deg, rgba(24, 24, 24, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
+  border-radius: 15px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
+  box-shadow: 0 8px 25px rgba(24, 210, 110, 0.2);
+}
+
+.skill-card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-card-header i {
+  font-size: 32px;
+}
+
+.skill-card-header h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--accent-color);
+}
+
+.skill-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.skill-item:hover {
+  background: rgba(24, 210, 110, 0.1);
+  transform: translateX(5px);
+}
+
+.skill-item i {
+  font-size: 18px;
+  color: var(--accent-color);
+}
+
+.skill-item span {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .skill-card {
+    padding: 20px;
+  }
+  
+  .skill-card-header h3 {
+    font-size: 18px;
+  }
+}
