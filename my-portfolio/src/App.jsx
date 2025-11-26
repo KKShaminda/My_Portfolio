@@ -5,6 +5,7 @@ import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import './App.css'
 import Skills from './components/Skills.jsx'
+import Projects from './components/Projects.jsx'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <About /> 
         <Skills />
+        <Projects />
         <Footer/>
       </div>
       
