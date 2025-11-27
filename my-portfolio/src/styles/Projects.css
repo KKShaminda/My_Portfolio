@@ -129,6 +129,7 @@
 
 .project-link:hover {
   background: #ffffff;
+  color: var(--accent-color);
   transform: translateX(5px);
 }
 

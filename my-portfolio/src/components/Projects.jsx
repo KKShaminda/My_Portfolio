@@ -9,25 +9,25 @@ function Projects() {
       id: 1,
       title: "JobLink Portal",
       category: "web",
-      description: "Developed a comprehensive job portal application designed to connect job seekers with employers efficiently. The platform features a robust Angular frontend providing an intuitive user interface, a .NET backend ensuring secure and scalable operations, and PostgreSQL for reliable database management. Key functionalities include advanced job search and filtering, user profile management for both job seekers and employers, application tracking system, resume upload and management, employer job posting dashboard, and real-time notifications for application status updates.",
+      description: "Developed a functional job portal featuring a responsive landing page, job listings, job details with dynamic routing, and user login/register forms. Built a dashboard for job seekers and recruiters, including interactive job posting, application forms, and real-time application tracking with mock data. Backend integration for live data and authentication is planned",
       technologies: ["Angular", ".NET", "PostgreSQL", "TypeScript", "C#"],
       link: "https://github.com/KKShaminda/Joblink",
-      date: "2024"
+      date: "2025"
     },
     {
       id: 2,
       title: "Mobile & PC Repair Management System",
       category: "web",
-      description: "Built a full-stack repair management system using the MERN stack (MongoDB, Express.js, React, Node.js) to streamline operations for a mobile and PC repair business. The system manages the entire repair workflow from service request to completion, including customer management, repair ticket creation and tracking, inventory management for spare parts, technician assignment and workload distribution, invoice generation and payment tracking, service history and warranty management, and automated SMS/email notifications for repair status updates.",
+      description: "Developed a web-based system for Lovely Tech that integrates online product sales and repair management, enabling customers to purchase accessories, book and track repairs, and make secure payments while helping the business manage products, orders, and services efficiently.",
       technologies: ["React", "Node.js", "MongoDB", "Express.js", "JavaScript"],
       link: "https://github.com/KKShaminda/Community-project-Lovelytech",
-      date: "2024"
+      date: "2025"
     },
     {
       id: 3,
       title: "Medicare Web Application",
       category: "web",
-      description: "Created an innovative healthcare platform that leverages AI technology to provide intelligent doctor recommendations based on patient symptoms. The application revolutionizes the way patients find appropriate medical care by analyzing symptom patterns and suggesting suitable specialists. Features include AI-powered symptom analysis and doctor matching, comprehensive doctor profiles with specializations and ratings, online appointment booking and scheduling system, patient health records management, telemedicine consultation support, prescription and medical document storage, appointment reminders and follow-up notifications.",
+      description: "Developed a comprehensive healthcare web application that connects patients, doctors, pharmacists, and lab technicians on one platform, enabling AI-powered doctor recommendations, online appointment booking, digital prescriptions, lab report management, and secure access to medical records for efficient and patient-centered hospital management.",
       technologies: ["Angular", "FastAPI", "Python", "MongoDB", "TypeScript"],
       link: "https://github.com/kkindu12/medicare",
       date: "2024"
@@ -36,7 +36,7 @@ function Projects() {
       id: 4,
       title: "Smart EduMentor Platform",
       category: "web",
-      description: "Developed an educational technology platform that facilitates meaningful connections between students and mentors, fostering academic growth and career development. The platform provides a collaborative environment with real-time communication tools, resource sharing capabilities, and comprehensive progress tracking mechanisms. Key features include mentor-student matching based on subjects and expertise, real-time chat and video conferencing for virtual sessions, resource library for sharing study materials and documents, assignment submission and feedback system, progress tracking with analytics and reports, scheduling system for mentoring sessions, and student performance dashboards with goal tracking.",
+      description: "Developed a comprehensive web-based platform that connects universities, students, and graduate mentors to deliver interactive courses with tests, assignments, and certifications, while providing personalized career guidance and promoting engagement through a rewarding affiliate referral system.",
       technologies: ["React"],
       link: "https://github.com/Chandima0406/EduMentor",
       date: "2024"
