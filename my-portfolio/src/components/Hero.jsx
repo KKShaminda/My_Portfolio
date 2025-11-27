@@ -5,7 +5,7 @@ import '../styles/Hero.css';
 function Hero() {
   useEffect(() => {
     const typed = new Typed('.typed', {
-      strings: ['Software Engineer'],
+      strings: ['Software Engineer', 'Full Stack Developer'],
       typeSpeed: 100,
       backSpeed: 50,
       backDelay: 2000,
@@ -29,7 +29,7 @@ function Hero() {
                 <p className="py-3">
                   Currently pursuing my degree in CIS at Sabaragamuwa University of Sri Lanka. 
                   I have hands-on experience in full-stack development using modern frameworks like Angular, React, 
-                  and backend technologies including .Net and Node.js. I'm passionate about building scalable 
+                  and backend technologies including .Net. I'm passionate about building scalable 
                   applications and solving complex problems.
                 </p>
                 <div className="hero-buttons">

@@ -7,6 +7,7 @@ import './App.css'
 import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Projects />
         <Contact />
         <Footer/>
+        <ScrollToTop />
       </div>
       
     </>
